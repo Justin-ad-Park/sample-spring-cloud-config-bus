@@ -7,8 +7,20 @@ spring:
   cloud:
     config:
       server:
+        monitor:
+          github:
+            enabled: true
         git:
           uri: https://github.com/Justin-ad-Park/spring-cloud-config-repo
           username: ${github.username}
           password: ${github.password}
 #          cloneOnStart: true
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  security:
+    enabled: false

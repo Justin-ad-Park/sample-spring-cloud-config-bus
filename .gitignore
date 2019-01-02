@@ -1,4 +1,12 @@
 /.project
 /.settings/
 /.idea/
-*.imi
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
+/.idea/
+/.idea/vcs.xml
