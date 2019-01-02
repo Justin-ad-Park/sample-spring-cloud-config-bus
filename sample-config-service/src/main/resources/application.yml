@@ -8,7 +8,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/piomin/sample-spring-cloud-config-repo.git
+          uri: https://github.com/Justin-ad-Park/spring-cloud-config-repo
           username: ${github.username}
           password: ${github.password}
-          cloneOnStart: true
+#          cloneOnStart: true
