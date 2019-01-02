@@ -11,6 +11,14 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 public class ClientApplication {
 
 	/**
+	 * -- How to Run
+	 *
+	 * 1. Run rabbitMP
+	 * docker run -d --name rabbit -p 5672:5672 -p 15672:15672 rabbitmq:management
+	 * 2. Run Config-service
+	 * 3. Run discovery-service with activating zone1
+	 * 4. Run client-service with activating zone1
+	 *
 	 * -- How to Test 1. Triggering via client directly  --
 	 * 1.
 	 * http://localhost:8081/ping
