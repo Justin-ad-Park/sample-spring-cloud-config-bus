@@ -21,6 +21,8 @@ import org.springframework.context.annotation.Bean;
  * 		1-4. If doesn't exist a rabbit container, run rabbit
  * 	 	docker run -d --name rabbit -p 5672:5672 -p 15672:15672 rabbitmq:management
  *
+ * 	rabbitMP default username / password : guest / guest
+ *
  * 	 2. Run Config-service
  */
 @SpringBootApplication
